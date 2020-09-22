@@ -1,17 +1,51 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  margin: 0;
 }
 
 .center-div {
   margin: 0 auto;
 }
 
+.container {
+  width: 1440px;
+}
 
 main {
   background-image: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
-  width: 1440px;
   height: 687px;
   background-position: center bottom;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+nav {
+  width: 845px;
+  position: absolute;
+}
+
+ul li{
+  display: inline;
+}
+
+.apple-promo {
+  margin-top: 2px;
+}
+
+.apple-promo img
+{
+  display: inline-block;
+  width: 357px;
+  height: 200px;
+
 }
