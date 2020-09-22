@@ -9,6 +9,11 @@ img {
   margin: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .center-div {
   margin: 0 auto;
 }
@@ -18,7 +23,11 @@ img {
 }
 
 .container-small {
-  width: 845px;
+  width: 950px;
+}
+
+.container-footer {
+  width: 950px;
 }
 
 .flex {
@@ -47,6 +56,29 @@ img {
   font-size: 18px;
   line-height: 60px;
 }
+
+.flex-no li {
+  padding: 8px 8px;
+  color: white;
+}
+
+.flex-no {
+  flex: 1;
+  border: 1px solid gray;
+}
+
+.input-nav {
+  width: 75px;
+  margin: 7.5px 2px 2px 2px;
+  border-radius: 10px;
+}
+
+.input-div {
+  border: 1px solid gray;
+  min-width: 105px;
+  height: 36px;
+}
+
 
 main {
   background-image: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
@@ -93,4 +125,15 @@ ul li{
 footer {
   display: flex;
   justify-content: space-between;
+  line-height: 30px;
+  margin: 10px;
+  color: gray;
+}
+
+.footer-text {
+  font-size: 10px;
+}
+
+footer a {
+  color: #08c;
 }
