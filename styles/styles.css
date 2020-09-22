@@ -17,6 +17,14 @@ img {
   width: 1440px;
 }
 
+.container-small {
+  width: 845px;
+}
+
+.flex {
+  display: flex;
+}
+
 main {
   background-image: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
   height: 687px;
@@ -30,8 +38,17 @@ main {
 }
 
 nav {
-  width: 845px;
   position: absolute;
+  left: 0;
+  right: 0;
+  top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+nav ul li {
+  width: 106px;
 }
 
 ul li{
@@ -48,4 +65,9 @@ ul li{
   width: 357px;
   height: 200px;
 
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
 }
