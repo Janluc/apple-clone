@@ -16,7 +16,7 @@ A clone of the Old School Apple Page using Flexbox for positions and using backg
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Janluc/apple-clone/2dfa14cbdbf929fa420ee78dafa00d7904d059bb/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Janluc/apple-clone/4c5dc6ab0e0755998cb36f47356570aaba889320/index.html)
 
 
 ## Getting Started
@@ -33,8 +33,8 @@ To get a local copy up and running follow these simple example steps.
 - Clone or download the repo and run the index.html File.
 
 ### Run tests
-- [We use Stylelint, Lighthout, & Webhint](https://github.com/Janluc/apple-clone/pull/1/checks)
-- Linters #5: Pull request #1 synchronize by Janluc
+- [We use Stylelint, Lighthout, & Webhint](https://github.com/Janluc/apple-clone/actions/runs/268970694)
+- Linters #8: Pull request #1 synchronize by alejandrotoledoweb
 
 
 ## Authors
