@@ -51,6 +51,10 @@ a {
   font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
 }
 
+.c-white {
+  color: white;
+}
+
 .title1 {
   font-size: 70px;
   line-height: 90px;
@@ -69,8 +73,6 @@ a {
 }
 
 .flex-no li {
-  
-  color: white;
   border-right: 1px solid black;
   background: linear-gradient(grey 45%, #5f5f5f 50%, #737373)
 }
@@ -119,11 +121,9 @@ main {
   height: 687px;
   background-position: center bottom;
   background-repeat: no-repeat;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
 }
 
 nav {
@@ -138,7 +138,6 @@ nav {
 
 form i {
   position: absolute;
-  color: white;
   font-size: 11px;
   top: 12px;
   right: 70px;
@@ -156,8 +155,7 @@ ul li{
   margin-top: 2px;
 }
 
-.apple-promo img
-{
+.apple-promo img {
   display: inline-block;
   width: 357px;
   height: 200px;
@@ -165,7 +163,6 @@ ul li{
 }
 
 footer {
-  display: flex;
   justify-content: space-between;
   line-height: 30px;
   margin: 10px;
