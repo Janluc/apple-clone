@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Run tests
 - [We use Stylelint, Lighthout, & Webhint](https://github.com/Janluc/apple-clone/pull/1/checks)
-- #1 opened 5 minutes ago by Janluc
+- Linters #5: Pull request #1 synchronize by Janluc
 
 
 ## Authors
