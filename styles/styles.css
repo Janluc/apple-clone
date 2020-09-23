@@ -5,6 +5,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 img {
   margin: 0;
 }
@@ -42,7 +43,7 @@ a {
   font-weight: lighter;
 }
 
-.nav-radius-right{
+.nav-radius-right {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -56,8 +57,10 @@ a {
 }
 
 .title1 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 70px;
   line-height: 90px;
+  font-weight: 100;
 }
 
 .title2 {
@@ -72,13 +75,25 @@ a {
   line-height: 60px;
 }
 
+ul li {
+  display: inline;
+}
+
+nav ul li {
+  width: 106px;
+}
+
 .flex-no li {
   border-right: 1px solid black;
-  background: linear-gradient(grey 45%, #5f5f5f 50%, #737373)
+  background: linear-gradient(grey 45%, #5f5f5f 50%, #737373);
 }
 
 .flex-no {
   flex: 1;
+}
+
+footer a {
+  color: #08c;
 }
 
 .flex-no a {
@@ -87,11 +102,11 @@ a {
   height: 100%;
 }
 
-.flex-no a:hover {
-  background: linear-gradient(rgb(92, 92, 92) 45%, #383838 50%,rgb(92, 92, 92))
+.flex-no li:hover {
+  background: linear-gradient(rgb(92, 92, 92) 45%, #383838 50%, rgb(92, 92, 92));
 }
 
-.nav-radius-left{
+.nav-radius-left {
   border-top-left-radius: 5px !important;
   border-bottom-left-radius: 5px !important;
 }
@@ -112,9 +127,8 @@ a {
 .input-div {
   min-width: 130px;
   height: 36px;
-  background: linear-gradient(grey 45%, #5f5f5f 50%, #737373)
+  background: linear-gradient(grey 45%, #5f5f5f 50%, #737373);
 }
-
 
 main {
   background-image: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
@@ -134,6 +148,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 form i {
@@ -141,14 +156,6 @@ form i {
   font-size: 11px;
   top: 12px;
   right: 70px;
-}
-
-nav ul li {
-  width: 106px;
-}
-
-ul li{
-  display: inline;
 }
 
 .apple-promo {
@@ -159,7 +166,6 @@ ul li{
   display: inline-block;
   width: 357px;
   height: 200px;
-
 }
 
 footer {
@@ -171,8 +177,4 @@ footer {
 
 .footer-text {
   font-size: 10px;
-}
-
-footer a {
-  color: #08c;
 }
