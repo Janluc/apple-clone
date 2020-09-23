@@ -75,11 +75,11 @@ a {
   line-height: 60px;
 }
 
-ul li {
+.inline {
   display: inline;
 }
 
-nav ul li {
+.w106 {
   width: 106px;
 }
 
