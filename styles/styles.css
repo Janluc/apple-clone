@@ -34,6 +34,13 @@ a {
   display: flex;
 }
 
+.underline:hover {
+  text-decoration: underline;
+}
+
+.lighter {
+  font-weight: lighter;
+}
 
 .nav-radius-right{
   border-top-right-radius: 5px;
@@ -41,25 +48,23 @@ a {
 }
 
 .lucida {
-  font-family: "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;
 }
 
 .title1 {
   font-size: 70px;
   line-height: 90px;
-  font-weight: lighter;
 }
 
 .title2 {
-  font-size: 25px;
+  font-size: 33px;
   line-height: 40px;
-  font-weight: lighter;
-  width: 53%;
+  width: 60%;
   text-align: center;
 }
 
 .title3 {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 60px;
 }
 
